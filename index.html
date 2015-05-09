@@ -19,7 +19,8 @@
     <meta name='keywords' content='Kirsten Haberer, portfolio, designer'>
 
     <!-- This loads your CSS into the page -->
-    <link rel='stylesheet' href=''>
+    <link rel='stylesheet' href='css/reset.css'>
+    <link rel='stylesheet' href='css/styles.css'>
 
     <!-- This loads your favicon (shows in the browser tab) -->
     <link rel='icon' type='image/png' href='images/favicon.png'>
@@ -30,16 +31,19 @@
   <body>
 
     <header>
-      <h1>Kirsten Haberer</h1>
+      <h1>Kirsten Haberer <span>Designer</span></h1>
     </header>
-    <section>
-      <h2>Introduction</h2>
-      <p>Hello this is a paragraph.</p>
-      <p>This is a second paragraph and it's a little longer than the first one. Woo hoo! 
-        <a href='https://twitter.com' target='_blank'>Follow me on Twitter</a> to see more paragraphs like these! 
-      </p>
+    <section class='intro'>
+      <div class='container'>
+        <h2>Introduction</h2>
+        <p>Hello this is a paragraph.</p>
+        <p>This is a second paragraph and it's a little longer than the first one. Woo hoo! 
+          <a href='https://twitter.com/kirdashten' target='_blank'>Follow me on Twitter</a> to see more paragraphs like these! 
+        </p>
+      </div>  
     </section>
     <section>
+      <div class='container'>
       <h2>Other Things You Want To Know</h2>
       <p>
         <img src='images/hair.jpg' />
@@ -49,6 +53,7 @@
         <li>However, I do like going outside.</li>
         <li>Sometimes I stay inside when it's hot.</li>
       </ul>
+    </div>
     </section>
     <footer>
       <p> Copyright 2015 Kirsten Haberer </p>
